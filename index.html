@@ -1,0 +1,530 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/dmt errand.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>DMT Errand</title>
+    <style>
+        section{
+            padding: 60px 0;
+        }
+
+        .text-orange{
+            color: #FF914D;
+        }
+
+        .card{
+            height: 80vh;
+        }
+
+        .card-footer:hover{
+            background-color: #FF914D;
+            color: #fff;
+        }
+
+        .accordion-button:not(.collapsed){
+            background-color: #FF914D;
+            color: #fff;
+        }
+
+      
+
+        ::-webkit-scrollbar-track {
+            background-color: white;
+        }
+        
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background-color: #FF914D;
+        }
+
+        body{
+            overflow-x: hidden;
+        }
+
+     
+    </style>
+</head>
+<body class="bg-dark">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-xxl">
+            <a href="#intro" class="navbar-brand px-2">
+                <span class="fw-bold text-white">
+                    DMT
+                </span>
+                <span class="fw-bold text-orange">
+                    Errand
+                </span>
+            </a>
+            <!-- Toogle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#topics" class="nav-link text-light">About DMT Errand</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link text-light">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link text-light">Get in Touch</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a href="#pricing" class="nav-link text-light">Pricing</a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="#pricing" class="btn" style="background-color: #FF914D; color: #fff;" >Avail Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main image & intro text -->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text md-start">
+                    <h1>
+                        <div class="display-7 text-white">Your Personal Assistant for Everyday Tasks</div>
+                    </h1>
+                    <p class="lead my-4 text-light">Let us take care of your everyday tasks so that you can focus on the things that matter most.
+                    </p>
+                    <a href="#pricing" class="btn btn-secondary btn-lg" style="background-color: #FF914D; color: #fff;">Avail Now</a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <span class="tt" data-bs-placement="bottom" title="DMT Errand Logo">
+                        <img src="assets/dmt errand.png" alt="DMT Errand" class="img-fluid">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pricing plans -->
+    <section id="pricing" class="mt-5">
+        <div class="container-lg">
+            <div class="text-center text-white">
+                <h2><i class="bi bi-cash text-orange"></i> Pricing Plans</h2>
+                <p class="lead text-light">Services</p>
+            </div>
+            <div class="row my-3 align-items-center justify-content-center g-3">
+                <div class="col-8 col-lg-4">
+                    <div class="card border-0 bg-light">
+                        <div class="card-body text-center bg-light py-4">
+                            <h4 class="card-title mb-3">Errand Services</h4>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Grocery Shopping</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Show, game, and movie tickets</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Merchandise purchases, returns and exchanges</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Prescription drop off/pick-up</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Post office services</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Balloon/Flower delivery</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Gift wrapping and delivery</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Bank services</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Food pick up and delivery</p>
+                        </div>
+                        <a href="#" class="card-footer btn btn-outline-orange btn-lg text-orange">
+                            Learn More
+                         </a>
+                    </div>
+                </div>
+                <div class="col-8 col-lg-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center bg-light py-4">
+                            <h4 class="card-title mb-3">Business Services</h4>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Bill payment</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Document delivery</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Purchase & delivery of office supplies</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Purchase & delivery of food, beverages and office supplies</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Corporate gifts delivery & distribution</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Bulk mailings</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Package delivery</p>
+                        </div>
+                        <a href="#" class="card-footer btn btn-outline-orange btn-lg text-orange">
+                            Learn More
+                         </a>
+                    </div>
+                </div>
+                <div class="col-8 col-lg-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center bg-light py-4">
+                            <h4 class="card-title mb-3">Waiting Services</h4>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>DMV</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Utilities</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Repair person appointments</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Restaurants</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Movies</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Concerts</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>Clubs</p>
+                            <p class="card-text mx-5 my-2 text-orange text-start"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill mx-1" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/></svg>New products release</p>
+                        </div>
+                        <a href="#" class="card-footer btn btn-outline-orange btn-lg text-orange">
+                           Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- topics at a glance -->
+    <section id="topics">
+        <div class="container-md">
+            <div class="text-center text-white">
+                <h2><i class="bi bi-question-lg text-orange"></i> Frequently Answered Questions (FAQ)</h2>
+            </div>
+
+            <div class="row my-3 g-5 justify-content-around align-items-center">
+                <div class="col-6 col-lg-4 d-none d-md-block">
+                    <img id="imgFAQ" src="assets/FAQ.svg" alt="FAQ" class="img-fluid mx-auto">
+                </div>
+
+                <div class="col-lg-6">
+                <!-- accordion -->
+                <div class="accordion" id="accordions">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1" aria-expanded="true" aria-controls="accordion-1">
+                                What services do you offer?
+                            </button>
+                        </h2>
+                        <div id="accordion-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#accordions">
+                            <div class="accordion-body">
+                                <p>We offer a variety of errand services such as grocery shopping, food pick up and delivery, bill payment, package delivery, repair person appointments, and more.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-2">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-2" aria-expanded="true" aria-controls="accordion-2">
+                                How do I place an order?
+                            </button>
+                        </h2>
+                        <div id="accordion-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#accordions">
+                            <div class="accordion-body">
+                                <p>You can place an order on our website or by calling us directly.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-3">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3" aria-expanded="true" aria-controls="accordion-3">
+                                What is the cost of your services?
+                            </button>
+                        </h2>
+                        <div id="accordion-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#accordions">
+                            <div class="accordion-body">
+                                <p>Our prices vary depending on the service requested. You can find the prices for each service on our website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-4">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-4" aria-expanded="true" aria-controls="accordion-4">
+                                What forms of payment do you accept?
+                            </button>
+                        </h2>
+                        <div id="accordion-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#accordions">
+                            <div class="accordion-body">
+                                <p>We accept most major credit cards and also offer other forms of payment such as PayPal or Gcash.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-5">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-5" aria-expanded="true" aria-controls="accordion-5">
+                                How do I know my order has been received?
+                            </button>
+                        </h2>
+                        <div id="accordion-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#accordions">
+                            <div class="accordion-body">
+                                <p>You will receive an email confirmation once your order has been received.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-6">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-6" aria-expanded="true" aria-controls="accordion-6">
+                                What are your service hours?
+                            </button>
+                        </h2>
+                        <div id="accordion-6" class="accordion-collapse collapse" aria-labelledby="heading-6" data-bs-parent="#accordions">
+                            <div class="accordion-body">
+                                <p>Our service hours vary depending on the day and service requested. You can find our service hours on our website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-7">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-7" aria-expanded="true" aria-controls="accordion-7">
+                                What is your service area?
+                            </button>
+                        </h2>
+                        <div id="accordion-7" class="accordion-collapse collapse" aria-labelledby="heading-7" data-bs-parent="#accordions">
+                            <div class="accordion-body">
+                                <p>Our service area includes specific neighborhoods and cities. You can find our service area on our website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-8">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-8" aria-expanded="true" aria-controls="accordion-8">
+                                How do I cancel or reschedule an appointment?
+                            </button>
+                        </h2>
+                        <div id="accordion-8" class="accordion-collapse collapse" aria-labelledby="heading-8" data-bs-parent="#accordions">
+                            <div class="accordion-body">
+                                <p>You can cancel or reschedule an appointment by contacting us directly via phone or email.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-9">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-9" aria-expanded="true" aria-controls="accordion-9">
+                                What is your refund policy?
+                            </button>
+                        </h2>
+                        <div id="accordion-9" class="accordion-collapse collapse" aria-labelledby="heading-9" data-bs-parent="#accordions">
+                            <div class="accordion-body">
+                                <p>Our refund policy varies depending on the service requested. You can find our refund policy on our website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-10">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-10" aria-expanded="true" aria-controls="accordion-10">
+                                Can I provide specific instructions for my order?
+                            </button>
+                        </h2>
+                        <div id="accordion-10" class="accordion-collapse collapse" aria-labelledby="heading-10" data-bs-parent="#accordions">
+                            <div class="accordion-body">
+                                <p>Yes, you can provide specific instructions for your order either online or by contacting us directly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- reviews list -->
+    <section id="reviews" class="bg-dark text-white">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2><i class="bi bi-stars text-orange"></i> What Our Clients Say About Us</h2>
+                <p class="lead">See why our clients trust us to handle their errands.</p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill text-orange"></i>
+                                <i class="bi bi-star-fill text-orange"></i>
+                                <i class="bi bi-star-fill text-orange"></i>
+                                <i class="bi bi-star-fill text-orange"></i>
+                                <i class="bi bi-star-fill text-orange"></i>
+                            </div>
+                            <h5 class="mb-1">Excellent service and timely delivery</h5>
+                            <p class="mb-1">I used this errand service for the first time and was extremely impressed with the level of service provided. The delivery was on time and the person who handled my errand was very polite and professional. I highly recommend this service to anyone looking for a reliable errand service.</p>
+                            <small>Sarah T.</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill text-orange"></i>
+                                <i class="bi bi-star-fill text-orange"></i>
+                                <i class="bi bi-star-fill text-orange"></i>
+                                <i class="bi bi-star-fill text-orange"></i>
+                                <i class="bi bi-star-half text-orange"></i>
+                            </div>
+                            <h5 class="mb-1">Great communication and service</h5>
+                            <p class="mb-1">The errand service I used was great at communicating with me throughout the process. They kept me updated on the status of my errand and were very responsive to any questions I had. The service itself was good, but there was a slight delay in the delivery. Overall, I would recommend this service for its communication and reliability.</p>
+                            <small>Sarah T.</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill text-orange"></i>
+                                <i class="bi bi-star-fill text-orange"></i>
+                                <i class="bi bi-star-fill text-orange"></i>
+                                <i class="bi bi-star-fill text-orange"></i>
+                                <i class="bi bi-star-fill text-orange"></i>
+                            </div>
+                            <h5 class="mb-1">Lifesaver during a busy week</h5>
+                            <p class="mb-1">I used this errand service during a very busy week and it was a lifesaver. The person who handled my errand was very efficient and took care of everything I needed, from grocery shopping to picking up my dry cleaning. It saved me a lot of time and stress, and I would definitely use this service again.</p>
+                            <small>David S.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center text-white">
+                <h2><i class="bi bi-headset text-orange"></i> Get in Touch</h2>
+                <p class="lead">Have a task you need help with? Get in touch with us!</p>
+            </div>
+
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form>
+                        <label for="name" class="form-label text-white">Name:</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-circle"></i>
+                            </span>
+                            <input type="text" class="form-control" id="name" placeholder="e.g. John Doe">
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="bottom" title="Enter your name.">
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+
+                        <label for="emailAddress" class="form-label text-white">Email Address:</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-fill"></i>
+                            </span>
+                            <input type="email" class="form-control" id="emailAddress" placeholder="e.g. johndoe@example.com">
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="bottom" title="Enter an email address we can reply to.">
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+
+                        <label for="phoneNumber" class="form-label text-white">Phone Number:</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-telephone-fill"></i>
+                            </span>
+                            <input type="number" class="form-control" id="phoneNumber" placeholder="e.g. 09123456789">
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="bottom" title="Enter a phone number we can contact.">
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+
+                        <label for="typeOfErrand" class="form-label text-white">Type of Errand:</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-file-ruled-fill"></i>
+                            </span>
+                            <select id="typeOfErrand" class="form-select">
+                                <option value="grocery shopping" selected>Grocery shopping</option>
+                                <option value="prescription pick-up">Prescription pick-up</option>
+                                <option value="dry cleaning">Dry cleaning</option>
+                                <option value="meal delivery">Meal delivery</option>
+                                <option value="pet care">Pet care</option>
+                                <option value="house cleaning">House cleaning</option>
+                                <option value="home repairs">Home repairs</option>
+                                <option value="gift delivery">Gift delivery</option>
+                                <option value="event planning">Event planning</option>
+                                <option value="transportation services">Transportation services</option>
+                                <option value="yard work">Yard work</option>
+                                <option value="childcare">Childcare</option>
+                                <option value="elderly care">Elderly care</option>
+                                <option value="personal shopping">Personal shopping</option>
+                                <option value="errand running">Errand running</option>
+                                <option value="office assistance">Office assistance</option>
+                                <option value="technology support">Technology support</option>
+                                <option value="personal assistant services">Personal assistant services</option>
+                            </select>
+                        </div>
+
+                        <label for="location" class="form-label text-white">Location:</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </span>
+                            <input type="text" class="form-control" id="location" placeholder="e.g. 123 Main St, Anytown, Philippines">
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="bottom" title="Enter your location to know if our service is avaible at your location.">
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+
+                        <div class="form-floating mb-4 mt-5 ">
+                            <textarea id="message" class="form-control" style="height: 140px;"></textarea>
+                            <label for="message">Your message...</label>
+                        </div>
+
+                        <div class="mb-4 text-center">
+                            <button class="btn" style="background-color: #FF914D; color: #fff;">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- get updates / modal trigger -->
+    <section class="bg-dark">
+        <div class="contain">
+            <div class="text-center text-white">
+                <h2><i class="bi bi-arrow-clockwise text-orange"></i> Stay in the Loop</h2>
+                <p class="lead">Get the latest updates as they happen.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="my-4 text-white">
+                        At DMT Errand, we understand how busy life can get. That's why we created a platform that connects people who need help running errands with local, trusted helpers. Our platform is easy to use, and you can quickly find someone to help you with anything from grocery shopping to pet care. Sign up for our updates to stay in the loop on new features and special promotions.
+                    </p>
+                    <button class="btn" style="background-color: #FF914D; color: #fff;" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                        Register for Updates
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- modal itself -->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content bg-dark">
+                <div class="modal-header text-white">
+                    <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-white">
+                    <p>Thanks for your interest in DMT Errand updates. We'll keep you informed about new features, promotions, and other important news related to our platform.</p>
+                    <label for="modal-email" class="form-label">Your email address: </label>
+                    <input type="email" class="form-control" id="modal-email" placeholder="e.g. johndoe@example.com">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" style="background-color: #FF914D; color: #fff;">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+        const tooltips = document.querySelectorAll(".tt");
+        tooltips.forEach(t => {
+            new bootstrap.Tooltip(t);
+        });
+    </script>
+
+</body>
+</html>
